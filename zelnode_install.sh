@@ -170,7 +170,7 @@ sudo ufw allow $RPCPORT/tcp
 echo "Basic security completed..."
 
 echo "Restarting $COIN_NAME wallet with new configs, 30 seconds..."
-sudo chmod +x /usr/bin/anon*
+sudo chmod +x /usr/bin/zelcash*
 $COIN_DAEMON -daemon
 sleep 60
 
