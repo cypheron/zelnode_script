@@ -3,7 +3,7 @@
 COIN_NAME='ZELCASH' #no spaces
 
 #wallet information
-WALLET_DOWNLOAD='https://github.com/alttankcanada/ANONMasternodeScript/raw/master/anon-linux.zip'
+WALLET_DOWNLOAD='https://www.dropbox.com/s/raw/hkoi98uww138jh0/zelcash-linux.zip'
 WALLET_TAR_FILE='zelcash-linux.zip'
 ZIPTAR='unzip' #can be either unzip or tar -xfzg
 EXTRACT_DIR='' #not always necessary, can be blank if zip/tar file has no subdirectories
