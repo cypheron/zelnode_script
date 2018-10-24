@@ -1,0 +1,1 @@
+# zelnode_script
