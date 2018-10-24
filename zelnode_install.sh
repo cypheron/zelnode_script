@@ -83,10 +83,9 @@ rm -rf $WALLET_TAR_FILE
 wget -U Mozilla/5.0 $WALLET_DOWNLOAD
 
 unzip $WALLET_TAR_FILE
-cd $EXTRACT_DIR
-sudo chmod u+x $COIN_CLI $COIN_DAEMON
+sudo chmod +x $COIN_CLI $COIN_DAEMON
 cp $COIN_CLI $COIN_DAEMON $COIN_PATH
-sudo chmod u+× /usr/bin/zelcash*
+sudo chmod +× /usr/bin/zelcash*
 cd
 rm -rf $EXTRACT_DIR
 rm -rf $WALLET_TAR_FILE
