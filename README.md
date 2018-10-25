@@ -2,7 +2,7 @@
 This was tested on Ubuntu 16.04 
 First update and upgrade so run the following commands.
 
-apt-get update && upgrade -y
+apt-get update && apt-get upgrade -y
 
 reboot
 
