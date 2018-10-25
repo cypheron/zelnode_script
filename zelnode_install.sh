@@ -20,7 +20,7 @@ ADDNODE5='node-eu.zelcash.com'
 ADDNODE6='node-uk.zelcash.com'
 ADDNODE7='node-asia.zelcash.com'
 
-BOOTSTRAP='https://www.dropbox.com/s/raw/4u8mtjy4bgnwpci/zelcash-bootstrap.zip'
+BOOTSTRAP='https://www.dropbox.com/s/raw/hzk1ibncqi2g0jl/zelcash-bootstrap.zip'
 BOOTSTRAP_ZIP='zelcash-bootstrap.zip'
 
 FETCHPARAMS='https://raw.githubusercontent.com/anonymousbitcoin/anon/master/anonutil/fetch-params.sh'
