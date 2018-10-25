@@ -19,8 +19,6 @@ ADDNODE4='explorer.zelcash.online'
 ADDNODE5='node-eu.zelcash.com'
 ADDNODE6='node-uk.zelcash.com'
 ADDNODE7='node-asia.zelcash.com'
-PORT='16125'
-RPCPORT='16124'
 
 BOOTSTRAP='https://www.dropbox.com/s/raw/4u8mtjy4bgnwpci/zelcash-bootstrap.zip'
 BOOTSTRAP_ZIP='zelcash-bootstrap.zip'
@@ -110,8 +108,6 @@ rpcallowip=127.0.0.1
 server=1
 daemon=1
 listen=1
-rpcport=$RPCPORT
-port=$PORT
 externalip=$WANIP
 addnode=$ADDNODE1
 addnode=$ADDNODE2
@@ -163,12 +159,6 @@ echo ""
 
 echo "Stopping daemon again and creating final config..."
 
-echo "Configuring firewall..."
-#add a firewall
-sudo ufw allow $PORT/tcp
-sudo ufw allow $RPCPORT/tcp
-echo "Basic security completed..."
-
 echo "Restarting $COIN_NAME wallet with new configs, 30 seconds..."
 sudo chmod +x /usr/bin/zelcash*
 $COIN_DAEMON -daemon
@@ -189,8 +179,6 @@ rpcallowip=127.0.0.1
 server=1
 daemon=1
 listen=1
-rpcport=$RPCPORT
-port=$PORT
 externalip=$WANIP
 masternode=1
 masternodeprivkey=$GENKEY
