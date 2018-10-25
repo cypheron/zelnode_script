@@ -162,6 +162,12 @@ echo ""
 
 echo "Stopping daemon again and creating final config..."
 
+echo "Configuring firewall..."
+#add a firewall
+sudo ufw allow $PORT/tcp
+sudo ufw allow $RPCPORT/tcp
+echo "Basic security completed..."
+
 echo "Restarting $COIN_NAME wallet with new configs, 30 seconds..."
 sudo chmod +x /usr/bin/zelcash*
 $COIN_DAEMON -daemon
