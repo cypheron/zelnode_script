@@ -22,7 +22,7 @@ ADDNODE7='node-asia.zelcash.com'
 PORT='16125'
 RPCPORT='16124'
 
-BOOTSTRAP='https://www.dropbox.com/s/raw/mgvvvb719r4dlwo/zelcash-bootstrap.zip'
+BOOTSTRAP='https://www.dropbox.com/s/raw/eeqe13993snl4mh/Zelcash_Bootstrap.zip'
 BOOTSTRAP_ZIP='zelcash-bootstrap.zip'
 
 FETCHPARAMS='https://raw.githubusercontent.com/anonymousbitcoin/anon/master/anonutil/fetch-params.sh'
