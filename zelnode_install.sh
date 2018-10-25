@@ -19,6 +19,8 @@ ADDNODE4='explorer.zelcash.online'
 ADDNODE5='node-eu.zelcash.com'
 ADDNODE6='node-uk.zelcash.com'
 ADDNODE7='node-asia.zelcash.com'
+PORT='16125'
+RPCPORT='16124'
 
 BOOTSTRAP='https://www.dropbox.com/s/raw/hzk1ibncqi2g0jl/zelcash-bootstrap.zip'
 BOOTSTRAP_ZIP='zelcash-bootstrap.zip'
@@ -108,6 +110,8 @@ rpcallowip=127.0.0.1
 server=1
 daemon=1
 listen=1
+rpcport=$RPCPORT
+port=$PORT
 externalip=$WANIP
 addnode=$ADDNODE1
 addnode=$ADDNODE2
@@ -116,7 +120,6 @@ addnode=$ADDNODE4
 addnode=$ADDNODE5
 addnode=$ADDNODE6
 addnode=$ADDNODE7
-txindex=1
 maxconnections=256
 EOF
 
@@ -179,6 +182,8 @@ rpcallowip=127.0.0.1
 server=1
 daemon=1
 listen=1
+rpcport=$RPCPORT
+port=$PORT
 externalip=$WANIP
 masternode=1
 masternodeprivkey=$GENKEY
@@ -189,7 +194,6 @@ addnode=$ADDNODE4
 addnode=$ADDNODE5
 addnode=$ADDNODE6
 addnode=$ADDNODE7
-txindex=1
 maxconnections=256
 EOF
 
