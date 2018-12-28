@@ -51,8 +51,8 @@ sudo apt-get install ufw -y
 sudo apt-get install dnsutils -y
 sudo apt-get install build-essential libtool autotools-dev pkg-config libssl-dev -y
 sudo apt-get install  libc6-dev m4 g++-multilib -y
-sudo apt-get install autoconf libtool ncurses-dev unzip git python -y
-sudo apt-get install zlib1g-dev wget bsdmainutils automake -y
+sudo apt-get install autoconf libtool ncurses-dev unzip git python python-zmq -y
+sudo apt-get install zlib1g-dev wget curl bsdmainutils automake -y
 sudo apt-get install libboost-all-dev -y
 sudo apt-get install libevent-dev -y
 sudo apt-get install libminiupnpc-dev -y
