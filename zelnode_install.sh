@@ -25,7 +25,7 @@ RPCPORT='16124'
 BOOTSTRAP='https://www.dropbox.com/s/raw/hzk1ibncqi2g0jl/zelcash-bootstrap.zip'
 BOOTSTRAP_ZIP='zelcash-bootstrap.zip'
 
-FETCHPARAMS='https://raw.githubusercontent.com/anonymousbitcoin/anon/master/anonutil/fetch-params.sh'
+FETCHPARAMS='https://raw.githubusercontent.com/dk808/zelnode_script/blob/master/fetch-params.sh'
 
 
 #end of required details
