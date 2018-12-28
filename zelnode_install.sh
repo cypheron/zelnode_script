@@ -11,6 +11,7 @@ CONFIG_FOLDER='/root/.zelcash'
 CONFIG_FILE='zelcash.conf'
 COIN_DAEMON='zelcashd'
 COIN_CLI='zelcash-cli'
+COIN_TX='zelcash-tx'
 COIN_PATH='/usr/bin'
 ADDNODE1='node.zel.cash'
 ADDNODE2='explorer.zel.cash'
@@ -84,8 +85,8 @@ wget -U Mozilla/5.0 $WALLET_DOWNLOAD
 
 $ZIPTAR $WALLET_TAR_FILE
 cd $EXTRACT_DIR
-sudo chmod +x $COIN_CLI $COIN_DAEMON
-cp $COIN_CLI $COIN_DAEMON $COIN_PATH
+sudo chmod +x $COIN_CLI $COIN_DAEMON $COIN_TX
+cp $COIN_CLI $COIN_DAEMON $COIN_TX $COIN_PATH
 sudo chmod +× /usr/bin/zelcash*
 cd
 rm -rf $EXTRACT_DIR
