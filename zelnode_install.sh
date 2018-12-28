@@ -3,7 +3,7 @@
 COIN_NAME='ZELCASH' #no spaces
 
 #wallet information
-WALLET_DOWNLOAD='https://www.dropbox.com/s/raw/ajb2bvx8xqaqgoj/zelcash-linux.zip'
+WALLET_DOWNLOAD='https://www.dropbox.com/s/raw/yuhg1p3tuu6ldzb/zelcash-linux.zip'
 WALLET_TAR_FILE='zelcash-linux.zip'
 ZIPTAR='unzip' #can be either unzip or tar -xfzg
 EXTRACT_DIR='' #not always necessary, can be blank if zip/tar file has no subdirectories
