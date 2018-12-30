@@ -177,8 +177,8 @@ sleep 60
 echo "Making genkey..."
 GENKEY=$($COIN_CLI masternode genkey)
 
-echo "Mining info..."
-$COIN_CLI getmininginfo
+echo "Getting info..."
+$COIN_CLI getinfo
 $COIN_CLI stop
 
 echo "Stopping daemon again and creating final config..."
