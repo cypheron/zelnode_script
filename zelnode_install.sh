@@ -23,7 +23,7 @@ ADDNODE7='node-asia.zelcash.com'
 PORT='16125'
 RPCPORT='16124'
 
-BOOTSTRAP='https://www.dropbox.com/s/raw/hzk1ibncqi2g0jl/zelcash-bootstrap.zip'
+BOOTSTRAP='https://www.dropbox.com/s/raw/n9ajrps2smhdj2s/zelcash-bootstrap.zip'
 BOOTSTRAP_ZIP='zelcash-bootstrap.zip'
 
 FETCHPARAMS='https://raw.githubusercontent.com/dk808/zelnode_script/master/fetch-params.sh'
