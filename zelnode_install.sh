@@ -214,5 +214,6 @@ echo "==========================================================================
 echo "COPY THIS TO LOCAL WALLET CONFIG FILE AND REPLACE TxID and OUTPUT"
 echo "WITH THE DETAILS FROM YOUR COLLATERAL TRANSACTION"
 echo "MN1 $WANIP:$PORT $GENKEY TxID OUTPUT"
+echo "COURTESY OF ALTTANK FAM AND DK808"
 echo "============================================================================="
 sleep 1
