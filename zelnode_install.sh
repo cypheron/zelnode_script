@@ -111,9 +111,11 @@ rpcallowip=127.0.0.1
 server=1
 daemon=1
 listen=1
+logtimestamps=1
 rpcport=$RPCPORT
 port=$PORT
 externalip=$WANIP
+bind=$WANIP
 addnode=$ADDNODE1
 addnode=$ADDNODE2
 addnode=$ADDNODE3
@@ -174,8 +176,8 @@ sudo chmod +x /usr/bin/zelcash*
 $COIN_DAEMON -daemon
 sleep 60
 
-echo "Making genkey..."
-GENKEY=$($COIN_CLI masternode genkey)
+echo "Creating Zelnode genkey..."
+GENKEY=$($COIN_CLI createzelnodekey)
 
 echo "Getting info..."
 $COIN_CLI getinfo
@@ -189,11 +191,13 @@ rpcallowip=127.0.0.1
 server=1
 daemon=1
 listen=1
+logtimestamps=1
 rpcport=$RPCPORT
 port=$PORT
 externalip=$WANIP
-masternode=1
-masternodeprivkey=$GENKEY
+bind=$WANIP
+zelnode=1
+zelnodeprivkey=$GENKEY
 addnode=$ADDNODE1
 addnode=$ADDNODE2
 addnode=$ADDNODE3
