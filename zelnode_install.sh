@@ -3,8 +3,8 @@
 COIN_NAME='ZELCASH' #no spaces
 
 #wallet information
-WALLET_DOWNLOAD='https://www.dropbox.com/s/raw/yuhg1p3tuu6ldzb/zelcash-linux.zip'
-WALLET_TAR_FILE='zelcash-linux.zip'
+WALLET_DOWNLOAD='https://github.com/zelcash/zelcash/releases/download/v2.0.0/Linux.zip'
+WALLET_TAR_FILE='Linux.zip'
 ZIPTAR='unzip' #can be either unzip or tar -xfzg
 EXTRACT_DIR='' #not always necessary, can be blank if zip/tar file has no subdirectories
 CONFIG_FOLDER='/root/.zelcash'
@@ -23,10 +23,10 @@ ADDNODE7='node-asia.zelcash.com'
 PORT='16125'
 RPCPORT='16124'
 
-BOOTSTRAP='https://www.dropbox.com/s/raw/n9ajrps2smhdj2s/zelcash-bootstrap.zip'
-BOOTSTRAP_ZIP='zelcash-bootstrap.zip'
+BOOTSTRAP='https://zelcore.io/Zelcash.zip'
+BOOTSTRAP_ZIP='Zelcash.zip'
 
-FETCHPARAMS='https://raw.githubusercontent.com/dk808/zelnode_script/master/fetch-params.sh'
+FETCHPARAMS='https://raw.githubusercontent.com/zelcash/zelcash/master/zcutil/fetch-params.sh'
 
 
 #end of required details
